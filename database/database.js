@@ -15,8 +15,8 @@ Parametros
 
 const connection = new Sequelize(
     'api_livraria_bd',
-    'cristiano',
-    '#CCM_04_Mo_21_CoR!',
+    '',
+    '',
     {
         host: 'localhost',
         dialect: 'mysql',
