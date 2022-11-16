@@ -12,13 +12,12 @@ Parametros
     3° TimeZone - Determina o local para as hora'Fuso horário'
 */
 
-
 const connection = new Sequelize(
     'api_livraria_bd',
-    '',
-    '',
+    'teste',
+    'M23@20vi',
     {
-        host: 'localhost',
+        host: 'teste-bd.mysql.database.azure.com',
         dialect: 'mysql',
         timezone: '-03:00'
     }
